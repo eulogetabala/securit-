@@ -1,0 +1,16 @@
+<svg width="320" height="90" viewBox="0 0 320 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D59F1F" />
+      <stop offset="100%" stop-color="#F7CB6A" />
+    </linearGradient>
+    <linearGradient id="darkblue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D2E52" />
+      <stop offset="100%" stop-color="#16293F" />
+    </linearGradient>
+  </defs>
+  <path d="M40 14L24 54L40 76L76 58L60 18L40 14Z" fill="url(#darkblue)" />
+  <path d="M94 14C74 15 56 29 46 48C42 56 38 68 45 74C53 81 69 78 80 74C94 69 107 56 119 48C131 38 148 32 164 30C184 27 206 30 222 38C228 41 236 45 241 51C249 59 250 70 245 78C240 86 232 90 223 88C212 85 207 74 206 63C206 61 212 61 214 63C220 73 226 82 241 86C260 90 280 82 289 66C296 51 294 35 284 22C272 7 249 -2 226 0C206 2 187 9 172 19C158 29 129 39 109 38C103 38 96 37 91 35L94 14Z" fill="url(#gold)" />
+  <text x="160" y="57" font-family="Inter, sans-serif" font-size="22" font-weight="700" letter-spacing="0.12em" fill="#0D2E52">CONGO</text>
+  <text x="160" y="80" font-family="Inter, sans-serif" font-size="22" font-weight="700" letter-spacing="0.12em" fill="url(#gold)">SHIELD SECURITY</text>
+</svg>
