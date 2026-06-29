@@ -114,25 +114,25 @@ export default function Home() {
   }, []);
 
   return (
-    <div ref={containerRef} className="min-h-screen bg-white text-slate-800 font-sans selection:bg-[#eb7224]/30 selection:text-white">
+    <div ref={containerRef} className="min-h-screen bg-white text-slate-800 font-sans selection:bg-[#d59f1f]/30 selection:text-white">
       {/* Top Utility Bar */}
       <div className="bg-[#090d16] text-slate-400 text-xs py-3 border-b border-slate-900">
         <div className="container flex flex-col md:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1.5 hover:text-white transition">
-              <svg className="h-4 w-4 text-[#eb7224]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+              <svg className="h-4 w-4 text-[#d59f1f]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               contact@cs-securite.com
             </span>
             <span className="flex items-center gap-1.5">
-              <svg className="h-4 w-4 text-[#eb7224]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+              <svg className="h-4 w-4 text-[#d59f1f]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Ouvert : Lun - Sam 8:00 - 18:00
             </span>
             <span className="flex items-center gap-1.5 hover:text-white transition md:inline-flex hidden">
-              <svg className="h-4 w-4 text-[#eb7224]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+              <svg className="h-4 w-4 text-[#d59f1f]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
               (+242) 06 625 58 68 / 04 406 25 79
@@ -162,25 +162,25 @@ export default function Home() {
 
           {/* Desktop Nav Links */}
           <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-600">
-            <a href="#home" className="hover:text-[#eb7224] transition">Accueil</a>
-            <a href="#about" className="hover:text-[#eb7224] transition">À Propos</a>
-            <a href="#services" className="hover:text-[#eb7224] transition">Nos Services</a>
-            <a href="#solutions" className="hover:text-[#eb7224] transition">Solutions</a>
-            <a href="#contact" className="hover:text-[#eb7224] transition">Contactez-nous</a>
+            <a href="#home" className="hover:text-[#d59f1f] transition">Accueil</a>
+            <a href="#about" className="hover:text-[#d59f1f] transition">À Propos</a>
+            <a href="#services" className="hover:text-[#d59f1f] transition">Nos Services</a>
+            <a href="#solutions" className="hover:text-[#d59f1f] transition">Solutions</a>
+            <a href="#contact" className="hover:text-[#d59f1f] transition">Contactez-nous</a>
           </nav>
 
           {/* Phone Badge & Login */}
           <div className="flex items-center gap-6">
             <a href="tel:+242066255868" className="hidden sm:flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#eb7224]/10 text-[#eb7224] transition hover:bg-[#eb7224]/20">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#d59f1f]/10 text-[#d59f1f] transition hover:bg-[#d59f1f]/20">
                 <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
               </div>
-              <span className="text-sm font-bold text-slate-800 hover:text-[#eb7224] transition">(+242) 06 625 58 68</span>
+              <span className="text-sm font-bold text-slate-800 hover:text-[#d59f1f] transition">(+242) 06 625 58 68</span>
             </a>
-            <a href="#contact" className="btn-active-state bg-[#eb7224] hover:bg-[#d55e1c] text-white text-sm font-bold px-6 py-3 rounded-full shadow-lg shadow-[#eb7224]/25 transition duration-300">
-              Connexion
+            <a href="#contact" className="btn-active-state bg-[#d59f1f] hover:bg-[#b78414] text-white text-sm font-bold px-6 py-3 rounded-full shadow-lg shadow-[#d59f1f]/25 transition duration-300">
+              Contact
             </a>
           </div>
         </div>
@@ -208,15 +208,15 @@ export default function Home() {
           {/* Left Column Text */}
           <div className="space-y-6 max-w-2xl lg:col-span-7">
             <h1 className="text-4xl md:text-5xl lg:text-[56px] font-extrabold leading-[1.15] tracking-tight text-white hero-animate-title">
-              <span className="text-[#eb7224]">Security</span> Service For <br className="hidden md:inline" />
-              Your Personal Safety
+              Services de <span className="text-[#d59f1f]">Sécurité</span> Globale <br className="hidden md:inline" />
+              Pour Particuliers et Entreprises
             </h1>
             <p className="text-slate-300 text-base md:text-lg leading-relaxed max-w-xl hero-animate-text">
-              Suspendisse tincidunt ornare sem, at venenatis lorem tempor vel. Sed feugiat sit amet nisi non dignissim. Duis egestas augue et nisi pharetra porta.
+              Congo Shield Security protège vos locaux professionnels, vos résidences et vos événements avec un professionnalisme rigoureux. Nos agents d'élite interviennent sur tous types de sites pour vous garantir une sécurité absolue.
             </p>
             <div className="hero-animate-btn">
-              <a href="#contact" className="btn-active-state inline-block bg-[#eb7224] hover:bg-[#d55e1c] text-white font-bold px-8 py-4 rounded-full shadow-xl shadow-[#eb7224]/30 transition duration-300">
-                Commander
+              <a href="#contact" className="btn-active-state inline-block bg-[#d59f1f] hover:bg-[#b78414] text-white font-bold px-8 py-4 rounded-full shadow-xl shadow-[#d59f1f]/30 transition duration-300">
+                Nous contacter
               </a>
             </div>
           </div>
@@ -268,20 +268,20 @@ export default function Home() {
             </p>
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-slate-800 font-semibold">
-                <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#eb7224]/10 text-[#eb7224]">
+                <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#d59f1f]/10 text-[#d59f1f]">
                   ✓
                 </span>
                 Services de sécurité personnelle
               </li>
               <li className="flex items-center gap-3 text-slate-800 font-semibold">
-                <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#eb7224]/10 text-[#eb7224]">
+                <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[#d59f1f]/10 text-[#d59f1f]">
                   ✓
                 </span>
                 Sécurité pour entreprises
               </li>
             </ul>
             <div className="pt-2">
-              <a href="#solutions" className="btn-active-state inline-block bg-[#eb7224] hover:bg-[#d55e1c] text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-[#eb7224]/20 transition duration-300">
+              <a href="#solutions" className="btn-active-state inline-block bg-[#d59f1f] hover:bg-[#b78414] text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-[#d59f1f]/20 transition duration-300">
                 En savoir plus
               </a>
             </div>
@@ -311,9 +311,9 @@ export default function Home() {
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 {/* Accent Background Glow */}
-                <div className="absolute -right-16 -top-16 w-32 h-32 bg-[#eb7224]/5 rounded-full blur-2xl group-hover:bg-[#eb7224]/10 transition-all duration-300" />
+                <div className="absolute -right-16 -top-16 w-32 h-32 bg-[#d59f1f]/5 rounded-full blur-2xl group-hover:bg-[#d59f1f]/10 transition-all duration-300" />
                 
-                <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-full border border-[#eb7224]/20 bg-[#eb7224]/10 text-[#eb7224] group-hover:bg-[#eb7224] group-hover:text-white transition-all duration-300">
+                <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-full border border-[#d59f1f]/20 bg-[#d59f1f]/10 text-[#d59f1f] group-hover:bg-[#d59f1f] group-hover:text-white transition-all duration-300">
                   {service.icon}
                 </div>
                 <h3 className="text-lg font-bold mb-3">{service.title}</h3>
@@ -339,13 +339,13 @@ export default function Home() {
             </p>
             <div className="grid gap-6 sm:grid-cols-2 pt-2">
               <div className="rounded-3xl border border-slate-100 bg-slate-50/50 p-6">
-                <span className="text-sm font-extrabold uppercase tracking-wider text-[#eb7224] block mb-2">
+                <span className="text-sm font-extrabold uppercase tracking-wider text-[#d59f1f] block mb-2">
                   Action Rapide
                 </span>
                 <p className="text-sm text-slate-500">Réponse immédiate aux alertes et interventions d’urgence sur le terrain.</p>
               </div>
               <div className="rounded-3xl border border-slate-100 bg-slate-50/50 p-6">
-                <span className="text-sm font-extrabold uppercase tracking-wider text-[#eb7224] block mb-2">
+                <span className="text-sm font-extrabold uppercase tracking-wider text-[#d59f1f] block mb-2">
                   Veille Constante
                 </span>
                 <p className="text-sm text-slate-500">Surveillance intelligente et humaine 24/7 pour anticiper les menaces.</p>
@@ -374,7 +374,7 @@ export default function Home() {
         <div className="container">
           <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
             <div className="space-y-4">
-              <span className="text-sm font-extrabold uppercase tracking-[0.2em] text-[#eb7224] block">
+              <span className="text-sm font-extrabold uppercase tracking-[0.2em] text-[#d59f1f] block">
                 Témoignages
               </span>
               <h2 className="text-3xl md:text-4xl font-extrabold text-slate-950">
@@ -387,7 +387,7 @@ export default function Home() {
             <div className="grid gap-6">
               {testimonials.map((item, idx) => (
                 <div key={idx} className="rounded-3xl bg-white border border-slate-100 p-8 shadow-sm hover:shadow-md transition">
-                  <div className="text-slate-500 text-4xl leading-none font-serif text-[#eb7224] mb-2">“</div>
+                  <div className="text-slate-500 text-4xl leading-none font-serif text-[#d59f1f] mb-2">“</div>
                   <p className="text-base text-slate-700 italic mb-4">
                     {item.quote}
                   </p>
@@ -406,7 +406,7 @@ export default function Home() {
         <div className="container">
           <div className="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-center">
             <div className="space-y-6">
-              <span className="text-sm font-extrabold uppercase tracking-[0.2em] text-[#eb7224] block">
+              <span className="text-sm font-extrabold uppercase tracking-[0.2em] text-[#d59f1f] block">
                 Prêt à sécuriser votre avenir ?
               </span>
               <h2 className="text-3xl md:text-4xl font-extrabold text-slate-950">
@@ -417,7 +417,7 @@ export default function Home() {
               </p>
               <div className="space-y-4 pt-4">
                 <div className="flex items-center gap-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#eb7224]/10 text-[#eb7224]">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#d59f1f]/10 text-[#d59f1f]">
                     <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
@@ -428,7 +428,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#eb7224]/10 text-[#eb7224]">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#d59f1f]/10 text-[#d59f1f]">
                     <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
@@ -439,7 +439,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#eb7224]/10 text-[#eb7224]">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#d59f1f]/10 text-[#d59f1f]">
                     <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -463,7 +463,7 @@ export default function Home() {
                     type="text"
                     required
                     placeholder="Votre nom"
-                    className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-[#eb7224] focus:outline-none transition"
+                    className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-[#d59f1f] focus:outline-none transition"
                   />
                 </div>
                 <div>
@@ -473,7 +473,7 @@ export default function Home() {
                     type="email"
                     required
                     placeholder="adresse@mail.com"
-                    className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-[#eb7224] focus:outline-none transition"
+                    className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-[#d59f1f] focus:outline-none transition"
                   />
                 </div>
                 <div>
@@ -483,12 +483,12 @@ export default function Home() {
                     rows={4}
                     required
                     placeholder="Décrivez vos besoins de sécurité..."
-                    className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-[#eb7224] focus:outline-none transition"
+                    className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-[#d59f1f] focus:outline-none transition"
                   />
                 </div>
                 <button
                   type="submit"
-                  className="btn-active-state w-full bg-[#eb7224] hover:bg-[#d55e1c] text-white font-bold py-4 rounded-2xl shadow-lg shadow-[#eb7224]/20 transition duration-300"
+                  className="btn-active-state w-full bg-[#d59f1f] hover:bg-[#b78414] text-white font-bold py-4 rounded-2xl shadow-lg shadow-[#d59f1f]/20 transition duration-300"
                 >
                   Envoyer ma demande
                 </button>

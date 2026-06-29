@@ -25,7 +25,7 @@ body {
 }
 
 ::selection {
-  background: rgba(226, 114, 43, 0.3); /* gold/orange selection tint */
+  background: rgba(213, 159, 31, 0.3); /* gold selection tint */
   color: #ffffff;
 }
 
