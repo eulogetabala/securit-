@@ -92,7 +92,7 @@ const testimonials = [
 export default function Home() {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const heroRef = useRef<HTMLDivElement | null>(null);
-  
+
   const aboutRef = useRef<HTMLDivElement | null>(null);
   const servicesRef = useRef<HTMLDivElement | null>(null);
   const solutionsRef = useRef<HTMLDivElement | null>(null);
@@ -141,13 +141,13 @@ export default function Home() {
           <div className="flex items-center gap-4">
             <span className="hidden sm:inline">Suivez-nous :</span>
             <a href="#" className="hover:text-white transition" aria-label="Facebook">
-              <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+              <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" /></svg>
             </a>
             <a href="#" className="hover:text-white transition" aria-label="Twitter">
-              <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+              <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" /></svg>
             </a>
             <a href="#" className="hover:text-white transition" aria-label="LinkedIn">
-              <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
             </a>
           </div>
         </div>
@@ -192,7 +192,7 @@ export default function Home() {
         <div className="absolute right-0 top-0 bottom-0 w-full lg:w-[50%] h-full z-0 lg:block hidden">
           <div className="relative w-full h-full hero-animate-img">
             <Image
-              src="/hero_security_guard.png"
+              src="/1.png"
               alt="Congo Shield Security Guard"
               fill
               priority
@@ -224,7 +224,7 @@ export default function Home() {
           {/* Right Column Image for Mobile only */}
           <div className="relative lg:hidden block w-full max-w-[480px] mx-auto aspect-[4/5] overflow-hidden rounded-[2rem] border border-white/10 shadow-2xl z-10 hero-animate-img">
             <Image
-              src="/hero_security_guard.png"
+              src="/1.png"
               alt="Congo Shield Security Guard"
               fill
               priority
@@ -249,7 +249,7 @@ export default function Home() {
             <div className="relative p-3 border border-slate-200 rounded-[2.75rem] inline-block w-full max-w-[500px] shadow-sm bg-slate-50">
               <div className="overflow-hidden rounded-[2.25rem] border border-slate-900/5 aspect-[4/3] relative">
                 <Image
-                  src="/two_security_officers.png"
+                  src="/2.png"
                   alt="Congo Shield Security Officers"
                   fill
                   className="object-cover"
@@ -305,14 +305,13 @@ export default function Home() {
             {services.map((service, index) => (
               <div
                 key={index}
-                className={`group relative overflow-hidden rounded-[2rem] border border-slate-900/5 bg-[#0d1527] p-8 text-white transition-all duration-700 transform ${
-                  servicesVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
-                }`}
+                className={`group relative overflow-hidden rounded-[2rem] border border-slate-900/5 bg-[#0d1527] p-8 text-white transition-all duration-700 transform ${servicesVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+                  }`}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 {/* Accent Background Glow */}
                 <div className="absolute -right-16 -top-16 w-32 h-32 bg-[#d59f1f]/5 rounded-full blur-2xl group-hover:bg-[#d59f1f]/10 transition-all duration-300" />
-                
+
                 <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-full border border-[#d59f1f]/20 bg-[#d59f1f]/10 text-[#d59f1f] group-hover:bg-[#d59f1f] group-hover:text-white transition-all duration-300">
                   {service.icon}
                 </div>
