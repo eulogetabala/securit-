@@ -192,7 +192,7 @@ export default function Home() {
         <div className="absolute right-0 top-0 bottom-0 w-full lg:w-[50%] h-full z-0 lg:block hidden">
           <div className="relative w-full h-full hero-animate-img">
             <Image
-              src="/1.png"
+              src="/2.jpeg"
               alt="Congo Shield Security Guard"
               fill
               priority
@@ -224,7 +224,7 @@ export default function Home() {
           {/* Right Column Image for Mobile only */}
           <div className="relative lg:hidden block w-full max-w-[480px] mx-auto aspect-[4/5] overflow-hidden rounded-[2rem] border border-white/10 shadow-2xl z-10 hero-animate-img">
             <Image
-              src="/1.png"
+              src="/2.jpeg"
               alt="Congo Shield Security Guard"
               fill
               priority
@@ -249,7 +249,7 @@ export default function Home() {
             <div className="relative p-3 border border-slate-200 rounded-[2.75rem] inline-block w-full max-w-[500px] shadow-sm bg-slate-50">
               <div className="overflow-hidden rounded-[2.25rem] border border-slate-900/5 aspect-[4/3] relative">
                 <Image
-                  src="/2.png"
+                  src="/1.webp"
                   alt="Congo Shield Security Officers"
                   fill
                   className="object-cover"
@@ -357,7 +357,7 @@ export default function Home() {
             <div className="relative p-3 border border-slate-200 rounded-[2.75rem] inline-block w-full max-w-[500px] shadow-sm bg-slate-50">
               <div className="overflow-hidden rounded-[2.25rem] border border-slate-900/5 aspect-[4/3] relative">
                 <Image
-                  src="/custom_solutions_guard.png"
+                  src="/3.png"
                   alt="Custom Security Solutions Agent"
                   fill
                   className="object-cover"
